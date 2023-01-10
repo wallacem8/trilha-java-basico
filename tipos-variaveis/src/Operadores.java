@@ -1,13 +1,9 @@
 public class Operadores {
     public static void main(String[] args) {
-        int numero = 5;
+        
+        String nomeUm = "Wallace";
+        String nomeDois = new String ("WALLACE");
 
-        numero = - numero;
-
-        System.out.println(numero);
-
-        numero = + numero * (-1);
-
-        System.out.println(numero);
+        System.out.println(nomeUm.equalsIgnoreCase(nomeDois));
     }
 }
